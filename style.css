@@ -1,0 +1,114 @@
+body {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 1em;
+}
+
+h1 + p {
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-size: 3em;
+  line-height: 1.5em;
+}
+
+h1 +p,
+h2 + p {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+h2 {
+  border-top: 2px solid #333;
+  padding-top: 40px;
+}
+
+h3 {
+  line-height: 1.5em;
+}
+
+h4,
+h4 + ul {
+}
+
+h2, h3, h4, h5, h6 {
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+
+a {
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #333;
+}
+
+.wrapper {
+  max-width: 900px;
+  min-width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.def,
+h3 + ul strong {
+  color: #569efe;
+}
+
+table {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  text-align: left;
+}
+
+table th {
+  padding-bottom: 12px;
+  font-size: 1.2em;
+}
+
+table th,
+table tbody td {
+  padding: 8px 12px;
+}
+
+table tbody tr:nth-of-type(odd) {
+  background: #f9f9f9;
+}
+
+code {
+  font-family: Consolas, 'Liberation Mono',
+    Menlo, Courier, monospace;
+  font-size: .75em;
+  border: 1px solid #d1d1d1;
+  padding: 4px 11px 3px 11px;
+  border-radius: 13px;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+@media (max-width: 900px) {
+  h1 { font-size: 3em; line-height: 1.2em; }
+  h2 { font-size: 2em; line-height: 1.5em; }
+  h1 + p, h2 + p { font-size: 1em; line-height: 1.5em; }
+  table + table + table th { display: none;}
+}
