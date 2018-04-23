@@ -1,7 +1,7 @@
 var fs = require('fs')
 var marked = require('marked')
 
-var translations = ['jp']
+var translations = ['zh', 'jp']
 var header = fs.readFileSync('header.html').toString()
 var footer = fs.readFileSync('footer.html').toString()
 
