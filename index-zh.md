@@ -15,13 +15,13 @@ Concise plain-speak about Electron.
 | [两个进程](#两个进程) |
 | [主进程](#主进程) |
 | [渲染进程](#渲染进程) |
-| [像这样想](#像这样想) |
+| [像这样思考](#像这样思考) |
 
 | Development Cont'd |
 | --- |
 | [保持通讯](#保持通讯) |
 | [总而言之](#总而言之) |
-| [快速开始](#Quick start) |
+| [快速开始](#快速开始) |
 | [打包](#打包) |
 | [更多参考资料](#更多参考资料) |
 
@@ -146,13 +146,13 @@ Electron 有两种进程：『主进程』和『渲染进程』。部分<span cl
 - **相互独立** 每个渲染进程都是独立的，这意味着某个渲染进程的崩溃，也不会影响其余渲染进程。
 - **隐藏** 你可以设置隐藏一个窗口，让它在后台执行代码。
 
-### 下一节: [像这样想](#像这样想)
+### 下一节: [像这样思考](#像这样思考)
 
 ### 参考资料:
 - [Electron APIs List](http://electron.atom.io/docs/api/)
 
-<a name="像这样想" id="像这样想"></a>
-## 像这样想
+<a name="像这样思考" id="像这样思考"></a>
+## 像这样思考
 
 在Chrome（或其他网络浏览器）中，每个选项卡及其网页就像Electron中的单个渲染器进程。如果关闭所有选项卡，Chrome仍然存在，这就像您的主进程一样，您可以打开新窗口或退出应用程序。
 
@@ -185,10 +185,10 @@ Electron 应用就像 Node 应用，它也依赖一个 <span class="def">`packag
 ### 定义:
 - **`package.json` 文件** 这是Node应用程序中的一个常用文件，其中包含有关该项目的元数据和一系列依赖关系。
 
-### 下一节: [Quick start](#Quick start)
+### 下一节: [快速开始](#快速开始)
 
-<a name="Quick start" id="Quick start"></a>
-## Quick start
+<a name="快速开始" id="快速开始"></a>
+## 快速开始
 
 Electron Quick Start存储库是一个简单的Electron应用程序，包含您在此处了解到的 `package.json` ，`main.js` 和 `index.html`  - 一个开始的好地方！您也可以像选择框架一样去从模板库中选择一个模板boilerplates。
 
@@ -214,8 +214,8 @@ Electron Quick Start存储库是一个简单的Electron应用程序，包含您�
 - [Mac App Store Electron Guide](http://electron.atom.io/docs/tutorial/mac-app-store-submission-guide/)
 - [Windows App Store Electron Guide](http://electron.atom.io/docs/tutorial/windows-store-guide/)
 
-<a name="More 参考资料" id="More 参考资料"></a>
-## More 参考资料
+<a name="更多参考资料" id="更多参考资料"></a>
+## 更多参考资料
 
 这里的概念会让你感觉很不错，但当然还有其他更多的资料。
 
