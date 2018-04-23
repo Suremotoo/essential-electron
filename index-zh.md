@@ -4,28 +4,28 @@ Concise plain-speak about Electron.
 
 | Background |
 | --- |
-| [What is Electron?](#what-is-electron-) |
-| [Why is this important?](#why-is-this-important-) |
-| [How, even?](#how-even-) |
-| [What is developing like?](#what-s-developing-like-) |
+| [Electron 是什么？](#what-is-electron-) |
+| [为什么它如此重要？](#why-is-this-important-) |
+| [它由什么组成？](#how-even-) |
+| [开发体验如何？](#what-s-developing-like-) |
 
 | Development |
 | --- |
-| [Prereqs](#prereqs) |
-| [Two Processes](#two-processes) |
-| [Main Process](#main-process) |
-| [Renderer Process](#renderer-process) |
-| [Think of it like this](#think-of-it-like-this) |
+| [前提条件](#prereqs) |
+| [两个进程](#two-processes) |
+| [主进程](#main-process) |
+| [渲染进程](#renderer-process) |
+| [像这样想](#think-of-it-like-this) |
 
 | Development Cont'd |
 | --- |
-| [Stay in touch](#stay-in-touch) |
-| [Put it all together](#put-it-all-together) |
-| [Quick start](#quick-start) |
-| [Packaging](#packaging) |
-| [More 参考资料](#more-参考资料) |
+| [保持通讯](#stay-in-touch) |
+| [总而言之](#put-it-all-together) |
+| [快速开始](#quick-start) |
+| [打包](#packaging) |
+| [更多参考资料](#more-参考资料) |
 
-Read this in [Japanese](index-jp.html)[Chinese](index-zh.html).
+Read this in [English](index.html) [Japanese](index-jp.html).
 
 ## Electron 是什么？
 
