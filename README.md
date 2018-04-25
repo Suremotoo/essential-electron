@@ -1,5 +1,7 @@
 ![Essential Electron screenshot](https://cloud.githubusercontent.com/assets/1305617/17867404/3e699c20-685f-11e6-9303-c98862a0540a.png)
 
+![screenshot](https://github.com/Suremotoo/essential-electron/tree/master/imgs/screenshot.png)
+
 # Essential Electron
 
 This is a informational website about Electron, answering essential Electron concepts in plain-speak, a few diagrams and links to resources for diving in deeper.
