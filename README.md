@@ -12,7 +12,7 @@ This was an idea I had about a different type of documentation—or something—
 
 Here's a [blog post](http://jlord.us/blog/essential-electron.html) with a bit more info.
 
-This's repository pages [WebSite](http://blog.suremotoo.site/essential-electron/index-zh.html)
+[中文阅读](http://suremotoo.site/essential-electron/index-zh.html)
 
 ### Build it
 
